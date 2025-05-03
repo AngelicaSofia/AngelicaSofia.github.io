@@ -1104,6 +1104,11 @@ nav[data-toggle="toc"] {
   a {
     color: var(--global-text-color-light);
     text-decoration: none;
+    text-transform: none;
+
+    .post-title {
+      text-transform: none; // extra safety in case the title has its own class
+    }
 
     .card-text {
       overflow: hidden;
@@ -1118,6 +1123,8 @@ nav[data-toggle="toc"] {
         color: var(--global-theme-color);
       }
     }
+  }.card-title {
+    text-transform: none !important; // force override if needed
   }
 
   .post-meta {
