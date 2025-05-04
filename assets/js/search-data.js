@@ -80,11 +80,22 @@ ninja.data = [{
             window.location.href = "/blog/2024/PolimiRide-2024/";
           
         },
+      },{id: "post-motogp-mugello-2024",
+        
+          title: "MotoGP Mugello 2024",
+        
+        description: "The Salone dei Pagamenti is Italy’s leading national event on payments and innovation, promoted by ABI and organized by ABIServizi.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/MotoGP/";
+          
+        },
       },{id: "post-polimirun-spring-2024",
         
           title: "PolimiRun Spring 2024",
         
-        description: "2024 edition of PolimiRun, the 10 km urban trail run organized by the Politecnico di Milano, connecting its two Milan campuses and open to all participants.",
+        description: "2024 edition of PolimiRun Spring, the 10 km urban trail run organized by the Politecnico di Milano, connecting its two Milan campuses and open to all participants.",
         section: "Posts",
         handler: () => {
           
@@ -111,6 +122,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/PayVolution/";
+          
+        },
+      },{id: "post-polimirun-spring-2023",
+        
+          title: "PolimiRun Spring 2023",
+        
+        description: "2024 edition of PolimiRun, the 10 km urban trail run organized by the Politecnico di Milano, connecting its two Milan campuses and open to all participants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/PolimiRun-2023/";
+          
+        },
+      },{id: "post-polimirun-winter-2022",
+        
+          title: "PolimiRun Winter 2022",
+        
+        description: "2022 edition of PolimiRun Winter, tge 10 km competitive and non-competitive trail race through the city and hills of Lecco.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/PolimiRun-2022/";
           
         },
       },{id: "post-graduation-day-2022",
