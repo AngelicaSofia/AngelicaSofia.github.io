@@ -69,6 +69,28 @@ ninja.data = [{
             window.location.href = "/blog/2024/PayVolution/";
           
         },
+      },{id: "post-polimiride-cremona-2024",
+        
+          title: "PolimiRide Cremona 2024",
+        
+        description: "A vibrant cycling celebration open to everyone, promoting sustainability, well-being, and community through the streets of Cremona.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/PolimiRide-2024/";
+          
+        },
+      },{id: "post-polimirun-spring-2024",
+        
+          title: "PolimiRun Spring 2024",
+        
+        description: "2024 edition of PolimiRun, the 10 km urban trail run organized by the Politecnico di Milano, connecting its two Milan campuses and open to all participants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/PolimiRun-2024/";
+          
+        },
       },{id: "post-papal-audience-with-the-italian-red-cross",
         
           title: "Papal Audience with the Italian Red Cross",
