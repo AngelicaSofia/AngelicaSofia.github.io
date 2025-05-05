@@ -1,49 +1,28 @@
 ---
 layout: page
-title: Crowd4SDG (CERN)
-description: Crowd4SDG is a Horizon 2020 Research and Innovation Action supported by the European Commission’s Science with and for Society (SwafS) programme
-img: assets/img/projects/climatgender.jpeg
+title: KGE-Perf
+description: This project investigates how different KGE algorithms behave in terms of memory and speed across diverse hardware setups. The goal is to bridge the gap between research and real-world applicability, offering insights for scalable, efficient deployments.
+img: assets/img/projects/KGE.png
 importance: 19
 category: work
 related_publications: true
 ---
 
+The project was developed as part of an extra research initiative in the Advanced Computer Architectures course at university, under the guidance of [Ordinary Professor Marco D. Santambrogio](https://www.deib.polimi.it/ita/personale/dettagli/356156) and [PhD Guido Walter di Donato](https://github.com/gwdidonato), and represents a concrete application of architectural and algorithmic principles to real-world AI systems.
+
+## Exploring the Runtime Performance of Knowledge Graph Embedding Methods
+
+As structured information became increasingly central in data-driven applications, Knowledge Graphs (KGs) emerged as powerful tools for modeling complex relationships across domains like healthcare, e-commerce, and natural language processing. While **Knowledge Graph Embedding (KGE)** techniques made it possible to transform these structured graphs into compact, vector-based representations—making them more computationally manageable—most research had focused on improving model accuracy, overlooking runtime efficiency, a critical factor for real-world deployment.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/crowd4sdg.pdf" title="Crowd4SDG" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/pdf/projects/KGE-performance.pdf" title="Poli4SDGMockups" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    #Open17ClimateGender Challenge - Crowd4SDG GEAR 2 (2021).
+    Summary results in terms of total wall-clock time required for the training of the different KGE models, Knowledge Graphs (KG) State of the Art, KGE-Perf framework.
 </div>
 
-[Crowd4SDG](https://crowd4sdg.eu) is a transdisciplinary research project funded under the Horizon 2020 “Science with and for Society” (SwafS) programme of the European Commission. The initiative investigates how Citizen Science (CS) can support the monitoring and implementation of the Sustainable Development Goals (SDGs), particularly by contributing non-traditional data and fostering grassroots social innovation.
+This project addressed that gap by proposing KGE-Perf, a performance-evaluation framework designed to assess the runtime behavior of popular KGE models. The framework allowed systematic benchmarking of memory usage, training and inference time, and the effectiveness of various hardware setups, including multi-threaded CPU, vectorized instructions, and GPU acceleration. Built on top of the AmpliGraph library, KGE-Perf ensured methodological consistency across experiments and reduced bias introduced by differing implementations.
 
-The initiative focuses particularly on SDG 13, Climate Action, and is implemented by a transdisciplinary consortium of six partners: [Université de Genève](https://www.unige.ch), [CSIC (Consejo Superior de Investigaciones Científicas)](https://www.csic.es/es), [Politecnico di Milano](https://www.polimi.it), [Université Paris Cité](https://u-paris.fr), [UNITAR (United Nations Institute for Training and Research)](https://unitar.org), and [CERN](https://ideasquare.cern), through its innovation space, IdeaSquare.
-
-## #Open17ClimateGender Challenge – GEAR Cycle 2
-
-As part of GEAR Cycle 2, I participated in the [#Open17ClimateGender Challenge](https://crowd4sdg.eu/take-part-climate-gender/), launched in August 2021. This edition of the challenge focused on the intersection of climate change (SDG 13) and gender equality (SDG 5), encouraging the development of crowdsourcing-based projects that address specific societal challenges. These included assessing the different impacts of climate-related disasters on women and men, improving data on women’s participation in environmental governance, and evaluating gendered vulnerabilities in the context of climate change.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/crowd4sdggear2.png" title="Poli4SDG" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Poli4SDG: An Application for Environmental Crises Management and Gender Support.
-</div>
-
-The challenge invited global participants to propose crowdsourcing-based solutions to issues such as gendered impacts of climate change and women's roles in environmental governance. From over 150 submissions, selected teams underwent a five-week coaching program led by UN and European research experts. We developed socially impactful projects using crowdsourcing tools and data methodologies.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/mockup.pdf" title="Poli4SDGMockups" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-From this experience, I collaborated on the development of [Poli4SDG](https://crowd4sdg.eu/wp-content/uploads/2022/03/Onepager_Poli4SDG_2022.pdf), a prototype application focused on supporting users during environmental crises and climate-related disasters. The app, structured for both web and mobile platforms, was designed to align with SDG 13 and integrate gender equality considerations from SDG 5. Based on Citizen Science principles, it features a public, typology-based crisis catalog enriched by user contributions. This project served as the basis for an academic paper {% cite inproceedings %} exploring the app’s functionalities and the role of civic technology in emergency response.
-
-##### Related Documents:
-- [Challenge Based Innovation Workshop on Climate Resilience and Gender (PDF)](/assets/pdf/crowd4sdg/CERN (Crowd4SDG). Certificate of Participation.pdf)
-- [2021-2022 Challenge Based Innovation Workshop for Crowd4SDG (PDF)](/assets/pdf/crowd4sdg/CERN (Crowd4SDG). Letter of completion.pdf)
+Through **more than 630 hours of experiments**, the project evaluated state-of-the-art KGE methods such as TransE, DistMult, and ConvKB on multiple open-access datasets. The analysis revealed critical trade-offs between **computational efficiency and scalability**, offering actionable insights for applying KGE models in industrial contexts where hardware constraints and performance predictability are key. Projects results culminated in a peer-reviewed paper presented at the IEEE RTSI (Research and Technologies for Society and Industry) conference, {% cite ieeeRTSI9597228 %}.

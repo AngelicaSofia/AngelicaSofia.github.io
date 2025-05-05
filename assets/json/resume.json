@@ -115,29 +115,121 @@
       "courses": ["Probability and Statistics, Data Bases, Information Systems"]
     }
   ],
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent C1",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Upper Intermediate B2",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate",
+      "icon": ""
+    }
+  ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "TAP 2025 – Thales Talent Accelerator Program",
+      "date": "2025 - on going",
+      "awarder": "Thales Group",
+      "url": "",
+      "summary": "Selected for Thales’ global excellence program focused on leadership, management skills, and cross-border collaboration, involving a 6-month immersive experience with international exposure."
+    },
+    {
+      "title": "BRAVO Award",
+      "date": "2024-09-12",
+      "awarder": "Thales Cyber and Digital (Thales Group)",
+      "url": "/assets/pdf/awards/BRAVO award.png",
+      "summary": "Thales 2024 Worldwide Excellence Award, presented by TC Manager CEE, Italy, Balkans and CIS Gergely Kokeny, in recognition of outstanding performance in key customer onboarding and adoption of new tools, establishing a pioneering role in process standardization across the EMEA region."
+    },
+    {
+      "title": "Graduation Day Excellence Award",
+      "date": "2022-10-04",
+      "awarder": "Politecnico di Milano",
+      "url": "https://angelicasofia.github.io/blog/2022/graduationday/",
+      "summary": "Selected among 20 top graduates for a personal award from Rector Ferruccio Resta during the official ceremony at Allianz Cloud, honoring graduates from the Covid-19 emergency period."
+    },
+    {
+      "title": "Master’s Degree with Honors",
+      "date": "2021-10-07",
+      "awarder": "Politecnico di Milano",
+      "url": "",
+      "summary": "Graduated cum laude in Computer Science and Engineering with a thesis on Reinforcement Learning for optimized trajectory control in automotive systems, developed in collaboration with industry and focused on performance improvement on the Formula 1 Monza circuit."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "DELE B2: Diplomas de Español como Lengua Extranjera",
+      "date": "2023",
+      "issuer": "Instituto Cervantes",
+      "url": "/assets/pdf/certificates/language/DELE B2.pdf",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "AS Remote Pilot Open Category - A1+A3 [UAS-OPEN-A1+A3]",
+      "date": "2021",
+      "issuer": "Direction de l'Aviation Civile",
+      "url": "/assets/pdf/certificates/general/AS Remote Pilot Open Category - A1+A3 [UAS-OPEN-A1+A3].pdf",
+      "icon": "fa-solid fa-star"
+    },
+    {
+      "name": "Introduction to IoT",
+      "date": "2022",
+      "issuer": "CISCO",
+      "url": "/assets/pdf/certificates/computerscience/Introduction to IoT.pdf",
       "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Advanced Recommender Systems",
+      "date": "2020",
+      "issuer": "Coursera",
+      "url": "/assets/pdf/certificates/computerscience/Advanced Recommender System.PDF",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Basic Recommender Systems",
+      "date": "2020",
+      "issuer": "Coursera",
+      "url": "/assets/pdf/certificates/computerscience/Basic Recommender Systems.PDF",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "CCNA R&S: Routing and Switching Essentials",
+      "date": "2018",
+      "issuer": "CISCO",
+      "url": "/assets/pdf/certificates/computerscience/CCNA R&S Routing and Switching Essentials.pdf",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "CCNA R&S: Introduction to Networks",
+      "date": "2018",
+      "issuer": "CISCO",
+      "url": "/assets/pdf/certificates/computerscience/CCNA R&S Introduction to Networks.pdf",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "IELTS C1: International English Language Testing System",
+      "date": "2017",
+      "issuer": "British Council",
+      "url": "/assets/pdf/certificates/language/IELTS C1.pdf",
+      "icon": "fa-solid fa-certificate"
+    },
+    {
+      "name": "CAE C1: Certificate in Advanced English",
+      "date": "2015",
+      "issuer": "University of Cambridge",
+      "url": "/assets/pdf/certificates/language/CAE C1.pdf",
+      "icon": "fa-solid fa-certificate"
     }
   ],
   "publications": [
@@ -165,49 +257,124 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Project & Process Management",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Agile methodologies (Scrum, Kanban)",
+        "ITSM platforms (ServiceNow, Jira)",
+        "Project Scheduling (MS Project, Gantt charts)",
+        "Project Lifecycle oversight (Waterfall, Agile)"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Italian",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent C1",
-      "icon": ""
+      "name": "Financial Services & Banking",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Financial Analysis & Reporting",
+        "Business Development & Digital Tranformation",
+        "Risk Analysis & Compliance",
+        "Regulatory Knowledge (Basel III, MiFID II)"
+      ]
     },
     {
-      "language": "Spanish",
-      "fluency": "Upper Intermediate B2",
-      "icon": ""
+      "name": "Data & AI Technologies",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Machine Learning Predictive Analysis (Scikit-Learn, TensorFlow)",
+        "Data Analysis & Visualization (Python, Pandas, Power BI)s",
+        "Database technologies (SQL, Oracle, MongoDB)"
+      ]
     },
     {
-      "language": "French",
-      "fluency": "Intermediate",
-      "icon": ""
+      "name": "Cybersecurity, Compliance & Digital Transformation",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Regulatory Frameworks (GDPR, DORA)",
+        "Security Awareness & Risk Mitigation",
+        "Cloud Solutions (AWS, Azure)",
+        "Secure Systems Design (Data Encryption, Access & Identity Management)"
+      ]
+    },
+    {
+      "name": "Cross-Cultural Environment & Team Collaboration",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Multilingual Proficiency",
+        "Event Coordination",
+        "Cross-Funcational Team Collaboration",
+        "Team Leadership & Mentorship"
+      ]
+    },
+    {
+      "name": "Communication & Negotiation",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Executive Presentations & Public Speaking",
+        "Writing Business Proposals & Reports",
+        "Internal & External Stakeholder Communication",
+        "Document Sharing & Management (Confluence, SharePoint, Google Workspace)"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Financial Innovation & Client Strategy",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Digital Transformation in Banking & Financial Services",
+        "Market Trends in Fintech & Open Banking",
+        "Commercial Strategy & Customer-Centric Innovation"
+      ]
+    },
+    {
+      "name": "Project Leadership & Operational Excellence",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Process Standardization & Automation Initiatives",
+        "Cross-Functional Initiatives & Sinergies",
+        "Change Management & AI/ML Integration"
+      ]
+    },
+    {
+      "name": "Strategic Thinking & Problem Solving",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Rubik’s Cube & Mechanical Puzzles",
+        "Sudoku, Logic Games, & Brain Teasers",
+        "Chess (strategic planning, foresight)"
+      ]
+    },
+    {
+      "name": "Culture & Exploration",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Travelling & Cross-Cultural Experiences",
+        "Learning foreign languages",
+        "Theatre, Opera, Ballet & Art Exhibitions"
+      ]
+    },
+    {
+      "name": "Sports & Well-being",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Acrobatic dance, Tennis, Skiing",
+        "Trekking, Hiking & Outdoor Adventures",
+        "Urban Running & Community Sports Events"
+      ]
+    },
+    {
+      "name": "Creativity & Communication",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Photography & Videography",
+        "Writing & Visual Content Creation",
+        "Artistic Drawing & Painting Techniques"
       ]
     }
   ],
