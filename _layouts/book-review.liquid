@@ -29,15 +29,6 @@ layout: default
 
     {% if page.started or page.finished or page.stars %}
       <p class="post-meta">
-        {% if page.started %}
-          <i class="fa-solid fa-play fa-sm" style="color: var(--global-tip-block) !important"></i> <em>{{ page.started }}</em>
-        {% endif %}
-        {% if page.finished %}
-          {% if page.started %}
-            &nbsp;&middot;&nbsp;
-          {% endif %}
-          <i class="fa-solid fa-stop fa-sm" style="color: #e56565 !important"></i> <em>{{ page.finished }}</em>
-        {% endif %}
         {% if page.stars %}
           {% if page.started or page.finished %}
             &nbsp;&middot;&nbsp;

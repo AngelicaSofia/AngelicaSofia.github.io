@@ -26,7 +26,7 @@ Key Focus Areas of 2024:
 4. **Phygital Retail & Omnichannel Strategy**: From in-store experiences to mobile commerce, this area examines how embedded payments and unified customer journeys are reshaping the consumer landscape.
 5. **B2B Payment Speed Meets Integrations**: Efficiency and interoperability in cross-border payments, ERP integration, and invoice reconciliation are central topics for transforming corporate transactions.
 6. **Digital Currency & Regulation**: The path to the digital Euro and the rise of DeFi require a delicate balance between central bank policy and technological advancement. This theme focuses on digital wallets, CBDCs, and the evolution of retail finance.
-7: **The Innovation Agora**: A collaborative lab for experimentation, the Agora brings together startups, academic researchers, fintech pioneers, and banks to co-create the finance of tomorrow.
+7. **The Innovation Agora**: A collaborative lab for experimentation, the Agora brings together startups, academic researchers, fintech pioneers, and banks to co-create the finance of tomorrow.
 
 Key Highlights:
 - **Digital Euro and Regulatory Changes**: Sessions addressed the implications of the forthcoming digital euro and the impact of new regulations on instant payments, highlighting the need for banks to adapt to a rapidly changing regulatory environment. 

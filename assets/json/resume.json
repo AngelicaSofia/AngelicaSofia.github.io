@@ -29,7 +29,7 @@
       "startDate": "2023-04-03",
       "endDate": "",
       "summary": "As a Senior Project Manager, I lead complex digital transformation initiatives within the banking and payments sector, managing end-to-end project delivery with a focus on innovation, process optimization, and measurable business impact. I work closely with key clients—including Intesa Sanpaolo, Edenred, Fineco Bank, and Crédit Agricole—ensuring alignment with strategic objectives and enhancing operational efficiency through product integration and emerging technologies.",
-      "highlights": ["AI governance, Risk Management", "Process Optimization, Banking & Payments Systems", "AWS, MS Office", "GDPR, DORA", "ServiceNow, Jira"]
+      "highlights": ["2025: Promotion to Senior Project Manager", "2024: Joined SPARK Program (global standardization & digital transformation)", "2023: Hired as Project Manager"]
     },
     {
       "name": "Intesa Sanpaolo",
@@ -38,7 +38,7 @@
       "startDate": "2022-02-28",
       "endDate": "2023-03-31",
       "summary": "I worked in the Chief IT Digital Innovation Officer Area within a team managing transformative projects on applications in the Finance and Capital Markets domain to support business operations. The role included contributing to project delivery activities related to Investment Banking and Capital Markets, in collaboration with both internal and external teams. Additionally, I analyzed data and processes using advanced analytics and data visualization techniques, leveraging innovative Data Management and Data Governance tools.",
-      "highlights": ["Database Technologies (SQL, Oracle, MongoDB), AWS", "MS PowerBI & Office", "GDPR, ServiceNow"]
+      "highlights": ["2023: Role of Data Tehcnology Owner (Data Governance Management)", "2022: Hired as Junior Project Manager"]
     },
     {
       "name": "CERN",
@@ -47,7 +47,7 @@
       "startDate": "2021-09-06",
       "endDate": "2022-02-25",
       "summary": "I was awarded a fellowship funded by Crowd4SDG, a Horizon 2020 Research and Innovation Action project focused on climate action, gender equality, and the Sustainable Development Goals (SDGs). During this experience, I applied machine learning and deep learning techniques to automatically analyze large volumes of images and metadata from social media platforms. The work led to the publication of a research paper, and the project was being further developed by a PhD student and Politecnico di Milano research team.",
-      "highlights": ["MS ProjectAI frameworks (PYTHON, TensorFlow)", "Machine Learning, Neural Networks, Cybersecurity, IT Risk"]
+      "highlights": ["2022: Workshop in Geneve for Crowd4SDG", "2021: Selection of project for challenge of CERN Ideasquare"]
     },
     {
       "name": "Enel",
@@ -56,7 +56,7 @@
       "startDate": "2020-06-08",
       "endDate": "2022-09-03",
       "summary": "I developed microservices architectures using state-of-the-art technologies and internal tools, applying a DevOps model to oversee the end-to-end development of digital applications. I was also involved in planning, budgeting, forecasting, and detailed business analysis. This experience took place while I was a working student, balancing academic commitments with professional responsibilities.",
-      "highlights": ["DEV (PYTHON, Java, C)", "Agile Methodologies, GDPR", "AI Governance, Cybersecurity"]
+      "highlights": ["2021: Assigned to double role of SW and PM for digital applications projects' sprints delivery", "2020: Hired as Software Engineer during Master Degree"]
     }
   ],
   "volunteer": [
@@ -149,7 +149,7 @@
       "title": "BRAVO Award",
       "date": "2024-09-12",
       "awarder": "Thales Cyber and Digital (Thales Group)",
-      "url": "/assets/pdf/awards/BRAVO award.png",
+      "url": "",
       "summary": "Thales 2024 Worldwide Excellence Award, presented by TC Manager CEE, Italy, Balkans and CIS Gergely Kokeny, in recognition of outstanding performance in key customer onboarding and adoption of new tools, establishing a pioneering role in process standardization across the EMEA region."
     },
     {
@@ -181,41 +181,6 @@
       "issuer": "Direction de l'Aviation Civile",
       "url": "/assets/pdf/certificates/general/AS Remote Pilot Open Category - A1+A3 [UAS-OPEN-A1+A3].pdf",
       "icon": "fa-solid fa-star"
-    },
-    {
-      "name": "Introduction to IoT",
-      "date": "2022",
-      "issuer": "CISCO",
-      "url": "/assets/pdf/certificates/computerscience/Introduction to IoT.pdf",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Advanced Recommender Systems",
-      "date": "2020",
-      "issuer": "Coursera",
-      "url": "/assets/pdf/certificates/computerscience/Advanced Recommender System.PDF",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Basic Recommender Systems",
-      "date": "2020",
-      "issuer": "Coursera",
-      "url": "/assets/pdf/certificates/computerscience/Basic Recommender Systems.PDF",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "CCNA R&S: Routing and Switching Essentials",
-      "date": "2018",
-      "issuer": "CISCO",
-      "url": "/assets/pdf/certificates/computerscience/CCNA R&S Routing and Switching Essentials.pdf",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "CCNA R&S: Introduction to Networks",
-      "date": "2018",
-      "issuer": "CISCO",
-      "url": "/assets/pdf/certificates/computerscience/CCNA R&S Introduction to Networks.pdf",
-      "icon": "fa-solid fa-clipboard-check"
     },
     {
       "name": "IELTS C1: International English Language Testing System",
@@ -380,24 +345,50 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Joseph Conigliaro",
+      "summary": "",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Personalisation system solution manager at Thales, Gémenos, France"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Leonardo Furio",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Head of Methodologies at Intesa Sanpaolo, Milan, Italy"
+    },
+    {
+      "name": "Marcello Restelli",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Associate Professor at Politecnico di Milano, Milan, Italy"
+    },
+    {
+      "name": "Marco D. Santambrogio",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Ordinary Professor at Politecnico di Milano, Milan, Italy"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "SPARK Program",
+      "summary": "The Spark Program is a strategic, company-wide initiative led by Thales aimed at driving digital transformation and advancing technical capabilities across the organization. Focused on leveraging cutting-edge technologies, the program strives to enable seamless collaboration and innovation, empowering teams to modernize processes and systems at scale.",
+      "highlights": ["Process Optimization & Standardization", "Banking & Financial Services"],
+      "startDate": "2024-04",
+      "endDate": ""
+    },
+    {
+      "name": "Crowd4SDG",
+      "summary": "Crowd4SDG is a Horizon 2020 Research and Innovation Action supported by the European Commission’s Science with and for Society (SwafS) programme and sponsored by CERN IdeaSquare with the partnership of key players in AI, Sustainability and Engineering.",
+      "highlights": ["SDG & Sustainability", "Artificial Intelligence & Machine Learning"],
+      "startDate": "2021-09",
+      "endDate": "2022-04",
+      "url": "https://angelicasofia.github.io/projects/18_project/"
+    },
+    {
+      "name": "KGE-Perf",
+      "summary": "This project investigates how different KGE algorithms behave in terms of memory and speed across diverse hardware setups. The goal is to bridge the gap between research and real-world applicability, offering insights for scalable, efficient deployments.",
+      "highlights": ["Neural Networks & Artificial Intelligence", "Systems Architectures & Performance"],
+      "startDate": "2020-02",
+      "endDate": "2020-09",
+      "url": "https://angelicasofia.github.io/projects/19_project/"
     }
   ]
 }

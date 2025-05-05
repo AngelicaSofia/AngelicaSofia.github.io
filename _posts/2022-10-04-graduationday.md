@@ -3,7 +3,7 @@ layout: post
 title: Graduation Day 2022
 date: 2022-10-06 14:28:00
 description: Honored to be among 20 Alumni awarded by Rector Resta at Politecnico di Milano’s Graduation Day 2022, a ceremony to celebrate all students who completed their degrees during the Covid-19 emergency period.
-tags: PoliMi ComputerScience Engineer AllianzCloud FerruccioResta EnricoZio
+tags: PoliMi Award ComputerScience Engineer AllianzCloud FerruccioResta EnricoZio
 categories: PoliMi
 thumbnail: assets/img/poli/graduationday_0.jpg
 featured: true
