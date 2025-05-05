@@ -37,26 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+              title: "Bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/books/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-courses",
+              title: "Courses",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/courses/";
               },
             },{id: "post-payvolution-2024",
         
@@ -84,7 +77,7 @@ ninja.data = [{
         
           title: "MotoGP Mugello 2024",
         
-        description: "The Salone dei Pagamenti is Italy’s leading national event on payments and innovation, promoted by ABI and organized by ABIServizi.",
+        description: "A breathtaking race weekend at Mugello crowned by Pecco&#39;s double victory — experienced from the unforgettable vantage point of Terrazza Gold.",
         section: "Posts",
         handler: () => {
           
@@ -157,23 +150,57 @@ ninja.data = [{
             window.location.href = "/blog/2022/graduationday/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-the-legend-of-anita",
+          title: 'The Legend of Anita',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+              window.location.href = "/books/2025-03-12-LeggendaAnita/";
+            },},{id: "courses-ccna-r-amp-s-introduction-to-networks",
+          title: 'CCNA R&amp;amp;S. Introduction to Networks',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2018-04-07-CCNAR&SIntroductiontoNetworks/";
+            },},{id: "courses-ccna-r-amp-s-routing-and-switching-essentials",
+          title: 'CCNA R&amp;amp;S. Routing and Switching Essentials',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2018-07-22-CCNAR&SRoutingSwitchingEssentials/";
+            },},{id: "courses-basic-recommender-systems",
+          title: 'Basic Recommender Systems',
           description: "",
-          section: "News",},{id: "projects-ai-driving-car",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2020-10-26-BasicRecommenderSystems/";
+            },},{id: "courses-advanced-recommender-systems",
+          title: 'Advanced Recommender Systems',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2020-12-10-AdvancedRecommendedSystems/";
+            },},{id: "courses-introduction-to-iot",
+          title: 'Introduction to IoT',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2022-07-29-IntroductionToIoT/";
+            },},{id: "courses-red-cross-volunteer-qualification",
+          title: 'Red Cross Volunteer Qualification',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2022-09-21-RedCrossVolunteer/";
+            },},{id: "courses-medical-transport-operator-amp-aed-certification",
+          title: 'Medical Transport Operator &amp;amp; AED Certification',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2023-05-10-RedCrossDAE/";
+            },},{id: "courses-project-management-fundamentals",
+          title: 'Project Management Fundamentals',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2024-06-04-ProjectManagementFundamentals/";
+            },},{id: "courses-polimi-gsom-pmp-exam-preparation-course",
+          title: 'POLIMI GSOM PMP® EXAM PREPARATION COURSE',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/2024-10-18-PMP/";
+            },},{id: "projects-ai-driving-car",
           title: 'AI Driving Car',
           description: "An AI-powered coaching framework for learner drivers in automotive industry, combining Reinforcement Learning and advanced planning algorithms to guide, correct, and accelerate skill acquisition, with the goal of optimizing high-performance driving on racetracks (Monza circuit FormulaUno as Use Case).",
           section: "Projects",handler: () => {
@@ -198,35 +225,42 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%6E%67%65%6C%69%63%61%73%6F%66%69%61.%76%61%6C%65%72%69%61%6E%69@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-telegram',
+        title: 'telegram',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://telegram.me/Angi_Sofi_Vale", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/angelica-sofia-valeriani", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/AngelicaSofia", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=I1nKI9YAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://instagram.com/angi.sofi.vale", "_blank");
         },
       },{
       id: 'light-theme',
