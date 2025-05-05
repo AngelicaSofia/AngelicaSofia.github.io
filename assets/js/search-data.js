@@ -173,9 +173,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-crowd4sdg-cern",
-          title: 'Crowd4SDG (CERN)',
-          description: "Crowd4SDG is a Horizon 2020 Research and Innovation Action supported by the European Commission’s Science with and for Society (SwafS) programme",
+          section: "News",},{id: "projects-ai-driving-car",
+          title: 'AI Driving Car',
+          description: "An AI-powered coaching framework for learner drivers in automotive industry, combining Reinforcement Learning and advanced planning algorithms to guide, correct, and accelerate skill acquisition, with the goal of optimizing high-performance driving on racetracks (Monza circuit FormulaUno as Use Case).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/17_project/";
+            },},{id: "projects-crowd4sdg",
+          title: 'Crowd4SDG',
+          description: "Crowd4SDG is a Horizon 2020 Research and Innovation Action supported by the European Commission’s Science with and for Society (SwafS) programme and sponsored by CERN IdeaSquare with the partnership of key players in AI, Sustainability and Engineering.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/18_project/";
+            },},{id: "projects-kge-perf",
+          title: 'KGE-Perf',
+          description: "This project investigates how different KGE algorithms behave in terms of memory and speed across diverse hardware setups. The goal is to bridge the gap between research and real-world applicability, offering insights for scalable, efficient deployments.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/19_project/";
             },},{id: "projects-erasmus-2014-16",
