@@ -5,7 +5,6 @@
     "image": "",
     "email": "angelicasofia.valeriani@gmail.com",
     "phone": "+39 346 8601773",
-    "url": "https://AngelicaSofia.github.io/al-folio/",
     "summary": "Multilingual and results-driven Project Manager with a solid background in digital transformation, stakeholder engagement, and cross-functional leadership. With an academic foundation and early career in AI and Machine Learning, I bring a strong technical perspective to strategic initiatives. Passionate about continuous learning and committed to making a difference, I also serve as an active Red Cross volunteer and coordinator—combining analytical skills with a human-centered approach to drive meaningful, lasting impact.",
     "location": {
       "address": "Via Enrico Mattei, 1",
@@ -163,7 +162,7 @@
       "title": "Master’s Degree with Honors",
       "date": "2021-10-07",
       "awarder": "Politecnico di Milano",
-      "url": "",
+      "url": "https://angelicasofia.github.io/blog/2021/graduation/",
       "summary": "Graduated cum laude in Computer Science and Engineering with a thesis on Reinforcement Learning for optimized trajectory control in automotive systems, developed in collaboration with industry and focused on performance improvement on the Formula 1 Monza circuit."
     }
   ],
@@ -356,12 +355,12 @@
       "reference": "Head of Methodologies at Intesa Sanpaolo, Milan, Italy"
     },
     {
-      "name": "Marcello Restelli",
+      "name": "Professor Marcello Restelli",
       "icon": "fa-solid fa-laptop",
       "reference": "Associate Professor at Politecnico di Milano, Milan, Italy"
     },
     {
-      "name": "Marco D. Santambrogio",
+      "name": "Professor Marco D. Santambrogio",
       "icon": "fa-solid fa-laptop",
       "reference": "Ordinary Professor at Politecnico di Milano, Milan, Italy"
     }

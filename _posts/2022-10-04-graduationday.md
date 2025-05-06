@@ -3,7 +3,7 @@ layout: post
 title: Graduation Day 2022
 date: 2022-10-06 14:28:00
 description: Honored to be among 20 Alumni awarded by Rector Resta at Politecnico di Milano’s Graduation Day 2022, a ceremony to celebrate all students who completed their degrees during the Covid-19 emergency period.
-tags: PoliMi Award ComputerScience Engineer AllianzCloud FerruccioResta EnricoZio
+tags: PoliMi Award ComputerScience Engineer AllianzCloud FerruccioResta EnricoZio Graduation Ceremony
 categories: PoliMi
 thumbnail: assets/img/poli/graduationday_0.jpg
 featured: true
@@ -61,8 +61,8 @@ I'm proud to share that I was selected among 20 distinguished Alumni to be perso
 
 
 #### Related Articles & Posts:
-- [Thales Sketch My Card Solution](https://www.thalesgroup.com/en/markets/digital-identity-and-security/banking-payment/issuance/perso/artwork-services/all-about-me?utm_source=linkedin&utm_medium=Hootsuite&utm_term=&utm_content=&utm_campaign=DIS-BPS)
-- [Thales Cyber and Digital at PayVolution 2023](https://www.linkedin.com/posts/thalesdis_banking-payment-esg-activity-7133831929224663040-7Kmc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACxgzQ8Bq5FHZyEgJi8NtmD4k7flyizdcd0)
+- [Graduation Day Post](https://www.linkedin.com/feed/update/urn:li:activity:6985719515674259457/)
+- [Graduation Day @PoliMi](https://www.polimi.it/en/press-room/press-releases/translate-to-english-dettaglio?tx_comunicatistampa_dettagliocomunicati%5Baction%5D=show&tx_comunicatistampa_dettagliocomunicati%5Bcomunicatistampa%5D=2450&tx_comunicatistampa_dettagliocomunicati%5Bcontroller%5D=Comunicatistampa&cHash=1d09b5c8b759064d7802d9ba9d2e6ad9)
 
 
 
