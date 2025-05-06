@@ -150,6 +150,17 @@ ninja.data = [{
             window.location.href = "/blog/2022/graduationday/";
           
         },
+      },{id: "post-graduation-master-degree",
+        
+          title: "Graduation Master Degree",
+        
+        description: "Proudly earned my Master’s degree in Computer Science Engineering from Politecnico di Milano with honors, completing a thesis on reinforcement learning for autonomous driving. This milestone marks the start of a journey to apply my skills and determination to bring real value to the tech industry.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/graduation/";
+          
+        },
       },{id: "books-the-legend-of-anita",
           title: 'The Legend of Anita',
           description: "",
