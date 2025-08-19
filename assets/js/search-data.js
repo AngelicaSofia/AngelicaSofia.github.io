@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-payvolution-2024",
+            },{id: "post-behind-the-scenes-of-swan-lake-at-teatro-alla-scala",
+        
+          title: "Behind the Scenes of Swan Lake at Teatro alla Scala",
+        
+        description: "Behind the Scenes of Swan Lake at Teatro alla Scala. My Journey as a Social Ambassador, Collaborating with Artists and Engaging the Under35 Community",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/SwanLake/";
+          
+        },
+      },{id: "post-payvolution-2024",
         
           title: "PayVolution 2024",
         
