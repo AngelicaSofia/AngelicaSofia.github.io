@@ -62,6 +62,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/SwanLake/";
           
         },
+      },{id: "post-once-upon-a-time-skills-zamaga-2025",
+        
+          title: "Once Upon a Time - Skills Zamaga 2025",
+        
+        description: "A journey into acrobatic dance through my experience performing Aerial Hoop and Silk at Skills Zamaga for end-of-year performance (Once Upon a Time)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/AcrobaticDance/";
+          
+        },
       },{id: "post-payvolution-2024",
         
           title: "PayVolution 2024",
