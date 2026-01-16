@@ -62,6 +62,28 @@ ninja.data = [{
             window.location.href = "/blog/2025/TAP/";
           
         },
+      },{id: "post-polimirun-winter-2025",
+        
+          title: "PolimiRun Winter 2025",
+        
+        description: "A sea of pink swept through Lecco today as 2,500 runners embraced the city and its hills during PolimiRun Winter 2025.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/PolimiRun-2025/";
+          
+        },
+      },{id: "post-polimiride-piacenza-2025",
+        
+          title: "PolimiRide Piacenza 2025",
+        
+        description: "Over 1,100 riders took to the streets of Piacenza and the Colli Piacentini for PolimiRide 2025 – a day of cycling, culture, and community, from scenic city streets to rolling hills.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/PolimiRide-2025/";
+          
+        },
       },{id: "post-behind-the-scenes-of-swan-lake-at-teatro-alla-scala",
         
           title: "Behind the Scenes of Swan Lake at Teatro alla Scala",
