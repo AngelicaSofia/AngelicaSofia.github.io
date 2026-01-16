@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-behind-the-scenes-of-swan-lake-at-teatro-alla-scala",
+            },{id: "post-talent-accelerator-program",
+        
+          title: "Talent Accelerator Program",
+        
+        description: "Thales Talent Accelerator Programme 2025. Growing Leaders, Building Trust, Creating Connections.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/TAP/";
+          
+        },
+      },{id: "post-behind-the-scenes-of-swan-lake-at-teatro-alla-scala",
         
           title: "Behind the Scenes of Swan Lake at Teatro alla Scala",
         
@@ -233,6 +244,11 @@ ninja.data = [{
           description: "",
           section: "Courses",handler: () => {
               window.location.href = "/courses/2024-10-18-PMP/";
+            },},{id: "projects-pmi-uk-sustainability-community-of-action-scoa",
+          title: 'PMI UK Sustainability Community of Action (SCoA)',
+          description: "Volunteering to amplify sustainability communications and promote best practices in project management.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16_project/";
             },},{id: "projects-ai-driving-car",
           title: 'AI Driving Car',
           description: "An AI-powered coaching framework for learner drivers in automotive industry, combining Reinforcement Learning and advanced planning algorithms to guide, correct, and accelerate skill acquisition, with the goal of optimizing high-performance driving on racetracks (Monza circuit FormulaUno as Use Case).",
