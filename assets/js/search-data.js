@@ -73,6 +73,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/PolimiRun-2025/";
           
         },
+      },{id: "post-payvolution-2025",
+        
+          title: "PayVolution 2025",
+        
+        description: "The Salone dei Pagamenti is Italy’s leading national event on payments and innovation, promoted by ABI and organized by ABIServizi.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/PayVolution/";
+          
+        },
       },{id: "post-polimiride-piacenza-2025",
         
           title: "PolimiRide Piacenza 2025",
