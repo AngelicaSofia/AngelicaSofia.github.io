@@ -51,18 +51,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/2025-12-04-LadyMacbeth/";
-          
-        },
-      },{id: "post-talent-accelerator-program",
+            },{id: "post-talent-accelerator-program",
         
           title: "Talent Accelerator Program",
         
