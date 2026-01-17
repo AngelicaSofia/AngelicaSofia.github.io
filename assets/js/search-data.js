@@ -51,15 +51,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-",
+            },{id: "post-lady-macbeth-of-the-mtsensk-district-teatro-la-scala",
         
-          title: "",
+          title: "Lady Macbeth of the Mtsensk District — Teatro La Scala",
         
-        description: "",
+        description: "Inside La Scala: Lady Macbeth of the Mtsensk District, backstage insights and the power of Shostakovich’s opera",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2025-12-04-LadyMacbethMtsensk/";
+            window.location.href = "/blog/2025/LadyMacbethMtsensk/";
           
         },
       },{id: "post-talent-accelerator-program",
