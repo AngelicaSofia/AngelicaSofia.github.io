@@ -238,7 +238,12 @@ ninja.data = [{
             window.location.href = "/blog/2021/graduation/";
           
         },
-      },{id: "books-the-legend-of-anita",
+      },{id: "books-cien-años-de-soledad",
+          title: 'Cien años de soledad',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2025-01-07-CienAnosDeSoledad/";
+            },},{id: "books-the-legend-of-anita",
           title: 'The Legend of Anita',
           description: "",
           section: "Books",handler: () => {
