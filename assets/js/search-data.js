@@ -243,6 +243,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2025-03-12-LeggendaAnita/";
+            },},{id: "books-one-day",
+          title: 'One Day',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2025-09-12-OneDay/";
+            },},{id: "books-the-secret-of-secrets",
+          title: 'The Secret of Secrets',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2026-01-10-SecretsOfSecrets/";
             },},{id: "courses-ccna-r-amp-s-introduction-to-networks",
           title: 'CCNA R&amp;amp;S. Introduction to Networks',
           description: "",
