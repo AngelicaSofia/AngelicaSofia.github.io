@@ -238,7 +238,12 @@ ninja.data = [{
             window.location.href = "/blog/2021/graduation/";
           
         },
-      },{id: "books-the-circle",
+      },{id: "books-the-book-thief",
+          title: 'The Book Thief',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2015-02-05-Storiadiunaladradilibri/";
+            },},{id: "books-the-circle",
           title: 'The Circle',
           description: "",
           section: "Books",handler: () => {
