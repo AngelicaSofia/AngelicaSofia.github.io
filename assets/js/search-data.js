@@ -238,8 +238,13 @@ ninja.data = [{
             window.location.href = "/blog/2021/graduation/";
           
         },
-      },{id: "books-the-book-thief",
-          title: 'The Book Thief',
+      },{id: "books-il-dio-delle-piccole-cose",
+          title: 'Il Dio delle Piccole Cose',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2015-01-01-IlDioDellePiccoleCose/";
+            },},{id: "books-storia-di-una-ladra-di-libri",
+          title: 'Storia di una ladra di libri',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2015-02-05-Storiadiunaladradilibri/";
@@ -248,11 +253,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2018-01-01-TheCircle/";
-            },},{id: "books-il-dio-delle-piccole-cose",
-          title: 'Il Dio delle Piccole Cose',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/2024-01-01-IlDioDellePiccoleCose/";
             },},{id: "books-cien-años-de-soledad",
           title: 'Cien años de soledad',
           description: "",
