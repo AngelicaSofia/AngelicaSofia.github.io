@@ -248,11 +248,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2015-02-05-Storiadiunaladradilibri/";
+            },},{id: "books-the-great-gatsby",
+          title: 'The Great Gatsby',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2016-01-04-GreatGatsby/";
+            },},{id: "books-venuto-al-mondo",
+          title: 'Venuto al mondo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2017-03-02-VenutoAlMondo/";
+            },},{id: "books-la-sombra-del-viento",
+          title: 'La Sombra del Viento',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2017-05-10-SombraDelViento/";
             },},{id: "books-the-circle",
           title: 'The Circle',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2018-01-01-TheCircle/";
+            },},{id: "books-norwegian-wood",
+          title: 'Norwegian Wood',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2018-03-05-NorwegianWood/";
+            },},{id: "books-l-amica-geniale",
+          title: 'L’amica geniale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2019-09-05-AmicaGeniale/";
             },},{id: "books-cien-años-de-soledad",
           title: 'Cien años de soledad',
           description: "",
