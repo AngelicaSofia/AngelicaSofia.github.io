@@ -238,21 +238,36 @@ ninja.data = [{
             window.location.href = "/blog/2021/graduation/";
           
         },
-      },{id: "books-il-dio-delle-piccole-cose",
+      },{id: "books-memoirs-of-a-geisha",
+          title: 'Memoirs of a Geisha',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2015-01-12-MemoirsOfAGeisha/";
+            },},{id: "books-il-dio-delle-piccole-cose",
           title: 'Il Dio delle Piccole Cose',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2015-01-01-IlDioDellePiccoleCose/";
+              window.location.href = "/books/2015-01-23-IlDioDellePiccoleCose/";
             },},{id: "books-the-book-thief",
           title: 'The Book Thief',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2015-02-05-BookThief/";
+            },},{id: "books-seta",
+          title: 'Seta',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2015-06-05-Seta/";
             },},{id: "books-the-great-gatsby",
           title: 'The Great Gatsby',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2016-01-04-GreatGatsby/";
+            },},{id: "books-il-nome-della-rosa",
+          title: 'Il Nome della Rosa',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2016-02-28-IlNomedellaRosa/";
             },},{id: "books-the-picture-of-dorian-gray",
           title: 'The Picture of Dorian Gray',
           description: "",
@@ -273,21 +288,81 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2018-01-15-TheCircle/";
+            },},{id: "books-angels-amp-demons",
+          title: 'Angels &amp;amp; Demons',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2018-01-28-AngelsDemons/";
             },},{id: "books-the-da-vinci-code",
           title: 'The Da Vinci Code',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2018-02-04-DaVinciCode/";
-            },},{id: "books-l-amica-geniale",
-          title: 'L’amica geniale',
+            },},{id: "books-the-lost-symbol",
+          title: 'The Lost Symbol',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2019-09-05-AmicaGeniale/";
+              window.location.href = "/books/2018-05-21-LostSymbol/";
+            },},{id: "books-inferno",
+          title: 'Inferno',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2018-10-03-Inferno/";
+            },},{id: "books-origin",
+          title: 'Origin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2019-02-02-Origin/";
+            },},{id: "books-la-casa-de-los-espíritus",
+          title: 'La Casa de los Espíritus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2020-04-19-Casadelosespiritus/";
             },},{id: "books-norwegian-wood",
           title: 'Norwegian Wood',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2019-10-17-NorwegianWood/";
+              window.location.href = "/books/2020-10-17-NorwegianWood/";
+            },},{id: "books-la-signora-delle-comete",
+          title: 'La Signora delle Comete',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2021-03-02-LaSignoraDelleComete/";
+            },},{id: "books-l-amica-geniale",
+          title: 'L’amica geniale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2021-09-05-AmicaGeniale/";
+            },},{id: "books-atonement",
+          title: 'Atonement',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2022-02-13-Atonement/";
+            },},{id: "books-il-libro-della-fisica",
+          title: 'Il Libro della Fisica',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2022-03-23-LibroFisica/";
+            },},{id: "books-harry-potter-and-the-goblet-of-fire",
+          title: 'Harry Potter and the Goblet of Fire',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2022-07-20-HarryPotter/";
+            },},{id: "books-the-chronicles-of-narnia",
+          title: 'The Chronicles of Narnia',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2023-01-24-NarniaChronicles/";
+            },},{id: "books-the-lord-of-the-rings",
+          title: 'The Lord of the Rings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2023-02-24-LordOfTheRings/";
+            },},{id: "books-le-petit-prince",
+          title: 'Le Petit Prince',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2024-10-11-LittlePrince/";
             },},{id: "books-cien-años-de-soledad",
           title: 'Cien años de soledad',
           description: "",
