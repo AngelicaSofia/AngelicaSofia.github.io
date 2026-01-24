@@ -253,6 +253,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2016-01-04-GreatGatsby/";
+            },},{id: "books-the-picture-of-dorian-gray",
+          title: 'The Picture of Dorian Gray',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2016-03-12-PictureOfDorianGray/";
             },},{id: "books-venuto-al-mondo",
           title: 'Venuto al mondo',
           description: "",
@@ -267,17 +272,22 @@ ninja.data = [{
           title: 'The Circle',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2018-01-01-TheCircle/";
-            },},{id: "books-norwegian-wood",
-          title: 'Norwegian Wood',
+              window.location.href = "/books/2018-01-15-TheCircle/";
+            },},{id: "books-the-da-vinci-code",
+          title: 'The Da Vinci Code',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2018-03-05-NorwegianWood/";
+              window.location.href = "/books/2018-02-04-DaVinciCode/";
             },},{id: "books-l-amica-geniale",
           title: 'L’amica geniale',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2019-09-05-AmicaGeniale/";
+            },},{id: "books-norwegian-wood",
+          title: 'Norwegian Wood',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/2019-10-17-NorwegianWood/";
             },},{id: "books-cien-años-de-soledad",
           title: 'Cien años de soledad',
           description: "",
