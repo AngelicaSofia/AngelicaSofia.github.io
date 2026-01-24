@@ -243,11 +243,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/2015-01-01-IlDioDellePiccoleCose/";
-            },},{id: "books-storia-di-una-ladra-di-libri",
-          title: 'Storia di una ladra di libri',
+            },},{id: "books-the-book-thief",
+          title: 'The Book Thief',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/2015-02-05-Storiadiunaladradilibri/";
+              window.location.href = "/books/2015-02-05-BookThief/";
             },},{id: "books-the-great-gatsby",
           title: 'The Great Gatsby',
           description: "",
