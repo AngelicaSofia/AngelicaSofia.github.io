@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2049ec2a6b3876e1bfc442d9e7ae412facf6f24a4fadb956ee840b86f9374579
-size 373
+var wechatModal = document.getElementById("WeChatMod");
+var wechatBtn = document.querySelectorAll('[id="WeChatBtn"]');
+
+for (var i = 0; i < wechatBtn.length; i++) {
+  wechatBtn[i].onclick = function () {
+    wechatModal.style.display = "block";
+  };
+}
+
+window.onclick = function (event) {
+  if (event.target == wechatModal) {
+    wechatModal.style.display = "none";
+  }
+};

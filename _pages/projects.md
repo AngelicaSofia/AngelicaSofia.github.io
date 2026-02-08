@@ -1,3 +1,65 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7002099da7e880f6f8166b0029755dac76d3b0161808f72bcdf83f27a197e414
-size 1861
+---
+layout: page
+title: Projects
+permalink: /projects/
+description: A showcase of innovative initiatives at the intersection of technology, education, sustainability, and civic engagement, driving impact through collaboration and creative solutions.
+nav: true
+nav_order: 4
+display_categories: [volunteering, work, educational]
+horizontal: false
+---
+
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>

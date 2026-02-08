@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd77ebcdae7312718d039b9408831da19209e1fc740267929bc253cc3eb5578e
-size 253
+---
+permalink: /assets/js/cronitor-analytics-setup.js
+---
+window.cronitor =
+  window.cronitor ||
+  function () {
+    (window.cronitor.q = window.cronitor.q || []).push(arguments);
+  };
+cronitor("config", { clientKey: "{{ site.cronitor_analytics }}" });

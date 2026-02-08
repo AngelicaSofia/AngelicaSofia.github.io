@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d30f960263f09e96fb911686cb99f97c58af9db340298eb59b6690c4fdf69a83
-size 378
+blank_issues_enabled: false
+contact_links:
+  - name: ❓ Ask a Question
+    url: https://github.com/alshedivat/al-folio/discussions/categories/q-a
+    about: Ask and answer al-folio related questions.
+  - name: 📖 Read the documentation
+    url: https://github.com/alshedivat/al-folio/blob/main/README.md
+    about: Please consult the documentation before opening any issues!

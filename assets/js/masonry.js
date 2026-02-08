@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:129a189c69e78a6342054d73dd40e8bfb6f56b9870b8864522923fc7afb3f440
-size 294
+$(document).ready(function () {
+  // Init Masonry
+  var $grid = $(".grid").masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: ".grid-item",
+  });
+  // Layout Masonry after each image loads
+  $grid.imagesLoaded().progress(function () {
+    $grid.masonry("layout");
+  });
+});

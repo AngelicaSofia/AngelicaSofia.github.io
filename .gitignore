@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a1fba82d2ca4ca31157ba286730d5ac7559f8781987c8219a1b1ea40774cd352
-size 146
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+assets/libs/
+node_modules/
+vendor
+.idea

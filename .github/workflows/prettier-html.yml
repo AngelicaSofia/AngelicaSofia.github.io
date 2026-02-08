@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4cd7ed4a5ade983c7ec8e7a6340a38d95e7f66f02ae031f5300efeabfaa57aa9
-size 935
+name: Prettify gh-pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Find and Remove </source> Tags
+        run: find . -type f -name "*.html" -exec sed -i 's/<\/source>//g' {} +
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Check for Prettier
+        run: npx prettier --version || echo "Prettier not found"
+
+      - name: Run Prettier on HTML files
+        run: npx prettier --write '**/*.html'
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Formatted HTML files" || echo "No changes to commit"
+          git push

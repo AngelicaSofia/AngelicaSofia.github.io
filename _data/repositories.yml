@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0b0572c8e770518bbaeb853883bfa993b444e1452d9f54cfa173d1d667d5ca3c
-size 241
+github_users:
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
+
+github_repos:
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons

@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02c1b434fe4a46793874987399a22147526651157a278dad36649a0ffd3df17c
-size 459
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [
+      ["$", "$"],
+      ["\\(", "\\)"],
+    ],
+  },
+  options: {
+    renderActions: {
+      addCss: [
+        200,
+        function (doc) {
+          const style = document.createElement("style");
+          style.innerHTML = `
+          .mjx-container {
+            color: inherit;
+          }
+        `;
+          document.head.appendChild(style);
+        },
+        "",
+      ],
+    },
+  },
+};

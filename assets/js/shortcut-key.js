@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fbd9a3d0a5084d4942295b409430246f9c77028188154a32fb507765f8a961f
-size 510
+// Check if the user is on a Mac and update the shortcut key for search accordingly
+document.addEventListener("readystatechange", () => {
+  if (document.readyState === "interactive") {
+    let isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+    let shortcutKeyElement = document.querySelector("#search-toggle .nav-link");
+    if (shortcutKeyElement && isMac) {
+      // use the unicode for command key
+      shortcutKeyElement.innerHTML = '&#x2318; k <i class="ti ti-search"></i>';
+    }
+  }
+});

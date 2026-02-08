@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:227703f2987763cdfc72ae47118840867136002e0d53b717aa29495ac03693fd
-size 496
+module Jekyll
+  module HideCustomBibtex
+    def hideCustomBibtex(input)
+	    keywords = @context.registers[:site].config['filtered_bibtex_keywords']
+
+	    keywords.each do |keyword|
+		    input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
+	    end
+
+      # Clean superscripts in author lists
+      input = input.gsub(/^.*\bauthor\b *= *\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
+
+      return input
+    end
+  end
+end
+
+Liquid::Template.register_filter(Jekyll::HideCustomBibtex)

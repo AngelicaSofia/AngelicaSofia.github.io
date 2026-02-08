@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:20356b17dd83614b000971cc670d2e87154f7c5fe856163395e57b26efd4c21c
-size 946
+let diff2HtmlTheme = determineComputedTheme();
+
+/* Create diff2html as another node and hide the code block, appending the diff2html node after it
+    this is done to enable retrieving the code again when changing theme between light/dark */
+document.addEventListener("readystatechange", () => {
+  if (document.readyState === "complete") {
+    document.querySelectorAll("pre>code.language-diff2html").forEach((elem) => {
+      const textData = elem.textContent;
+      const backup = elem.parentElement;
+      backup.classList.add("unloaded");
+      /* create diff node */
+      let diffElement = document.createElement("div");
+      diffElement.classList.add("diff2html");
+      backup.after(diffElement);
+      const configuration = { colorScheme: diff2HtmlTheme, drawFileList: true, highlight: true, matching: "lines" };
+      const diff2htmlUi = new Diff2HtmlUI(diffElement, textData, configuration);
+      diff2htmlUi.draw();
+    });
+  }
+});

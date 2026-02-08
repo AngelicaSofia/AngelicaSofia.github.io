@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a9ab4db8266e8693c2284eb7836b8712d1546f4f5aa5e59b0eeeb6cc7ae8c16b
-size 359
+---
+permalink: /assets/js/photoswipe-setup.js
+---
+import PhotoSwipeLightbox from "{{ site.third_party_libraries.photoswipe-lightbox.url.js }}";
+import PhotoSwipe from "{{ site.third_party_libraries.photoswipe.url.js }}";
+const photoswipe = new PhotoSwipeLightbox({
+  gallery: ".pswp-gallery",
+  children: "a",
+  pswpModule: PhotoSwipe,
+});
+photoswipe.init();

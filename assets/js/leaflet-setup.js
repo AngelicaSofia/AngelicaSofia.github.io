@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a2427c91753457467aad0e99eaea126864989e848687f2622fb612bcbaa9e2d1
-size 926
+/* Create leaflet map as another node and hide the code block, appending the leaflet node after it */
+document.addEventListener("readystatechange", () => {
+  if (document.readyState === "complete") {
+    document.querySelectorAll("pre>code.language-geojson").forEach((elem) => {
+      const jsonData = elem.textContent;
+      const backup = elem.parentElement;
+      backup.classList.add("unloaded");
+      /* create leaflet node */
+      let mapElement = document.createElement("div");
+      mapElement.classList.add("map");
+      backup.after(mapElement);
+
+      var map = L.map(mapElement);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      }).addTo(map);
+      let geoJSON = L.geoJSON(JSON.parse(jsonData)).addTo(map);
+      map.fitBounds(geoJSON.getBounds());
+    });
+  }
+});

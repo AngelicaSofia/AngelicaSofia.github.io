@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d61f93480ab5737ac78d8a2965686d1e3162f2226e3786954ce00e02b66ab778
-size 314
+---
+permalink: /assets/js/open-panel-analytics-setup.js
+---
+window.op =
+  window.op ||
+  function (...args) {
+    (window.op.q = window.op.q || []).push(args);
+  };
+window.op("init", {
+  clientId: "{{ site.openpanel_analytics }}",
+  trackScreenViews: true,
+  trackOutgoingLinks: true,
+  trackAttributes: true,
+});

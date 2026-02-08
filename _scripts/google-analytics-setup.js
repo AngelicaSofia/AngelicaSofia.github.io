@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0ea9d4b70d46ab77afa38a3b371a66ab4ca92784eaf0d8619455efa4d20cb379
-size 226
+---
+permalink: /assets/js/google-analytics-setup.js
+---
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  window.dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "{{ site.google_analytics }}");

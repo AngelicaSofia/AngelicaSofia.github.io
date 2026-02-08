@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c40152445035f411af71054825b5acf26550e0f1751793dbae6020295b69f1ee
-size 240
+---
+layout: book-shelf
+title: Bookshelf
+permalink: /books/
+nav: false
+collection: books
+---
+
+> "A book is a garden, an orchard, a storehouse, a party, a company by the way, a counselor, a multitude of counselors."
+>
+> -- Charles Baudelaire

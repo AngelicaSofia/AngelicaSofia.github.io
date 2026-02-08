@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3152b3cdbb5d6cd11247be254e38b8082a6f27c5f9c5b6bb9e2973f23bbf0df4
-size 1025
+window.MathJax = {
+  tex: {
+    inlineMath: [
+      ["$", "$"],
+      ["\\(", "\\)"],
+    ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"],
+    ],
+    processEscapes: true,
+    processEnvironments: true,
+  },
+};
+
+document.addEventListener("readystatechange", () => {
+  if (document.readyState === "complete") {
+    document.querySelectorAll("pre>code.language-pseudocode").forEach((elem) => {
+      const texData = elem.textContent;
+      const parent = elem.parentElement.parentElement;
+      /* create pseudocode node */
+      let pseudoCodeElement = document.createElement("pre");
+      pseudoCodeElement.classList.add("pseudocode");
+      const text = document.createTextNode(texData);
+      pseudoCodeElement.appendChild(text);
+      /* add pseudocode node and remove the original code block */
+      parent.appendChild(pseudoCodeElement);
+      parent.removeChild(elem.parentElement);
+      /* embed the visualization in the container */
+      pseudocode.renderElement(pseudoCodeElement);
+    });
+  }
+});

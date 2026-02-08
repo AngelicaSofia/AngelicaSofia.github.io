@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e888d506ed73e8c5877fb845961dc037b35788a1b309d43ce857fff3bf4d2b9e
-size 105
+{
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.4.0",
+    "prettier": "^3.8.1"
+  }
+}

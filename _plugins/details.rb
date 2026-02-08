@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e419adcd9c2c273cf3b0fe9923477ace399400850048934ee00010a347ca6f8c
-size 653
+# Code from http://movb.de/jekyll-details-support.html
+
+module Jekyll
+  module Tags
+    class DetailsTag < Liquid::Block
+      def initialize(tag_name, markup, tokens)
+        super
+        @caption = markup
+      end
+
+      def render(context)
+        site = context.registers[:site]
+        converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
+        caption = converter.convert(@caption).gsub(/<\/?p[^>]*>/, '').chomp
+        body = converter.convert(super(context))
+        "<details><summary>#{caption}</summary>#{body}</details>"
+      end
+
+    end
+  end
+end
+
+Liquid::Template.register_tag('details', Jekyll::Tags::DetailsTag)
