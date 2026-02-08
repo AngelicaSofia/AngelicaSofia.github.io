@@ -50,7 +50,7 @@ This was particularly true in the context of women’s ice hockey, which represe
     </div>
 </div>
 <div class="caption">
-    Speed, discipline and collective intelligence. Rivarly and precision matter as much as teamwork and talent. Winter Olympics represent a celebration, not only of Female Ice Hockey, but of all winter disciplines.
+    Speed, discipline and collective intelligence. Rivarly and precision matter as much as teamwork and talent.
 </div>
 
 What stands out in women’s hockey today is the combination of speed, tactical intelligence, and resilience. The game emphasizes fluidity, anticipation, and collective movement, often highlighting strategic depth as much as physical strength. Seeing these teams compete at Olympic level reinforces how far the sport has come, and how the Games function not only as a stage for excellence, but as a moment of recognition for disciplines that have earned their place through persistence, performance, and cultural change.
