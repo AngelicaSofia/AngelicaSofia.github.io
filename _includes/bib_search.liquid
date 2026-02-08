@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:36332b8a7d2ac99156f3499c03655f18f0e6b95c6aec8c66c30550be941c4b2c
-size 282
+{% if site.bib_search %}
+  <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+{% endif %}

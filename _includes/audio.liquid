@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4634a5550d78250fd277930c445e5d3b61d050453fd1b19f3b6cb55d5bb340e9
-size 740
+<figure>
+  <audio
+    src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
+    {% if include.class %}
+      class="{{ include.class }}"
+    {% endif %}
+    {% if include.alt %}
+      alt="{{ include.alt }}"
+    {% endif %}
+    {% if include.title %}
+      title="{{ include.title }}"
+    {% endif %}
+    {% if include.autoplay %}
+      autoplay
+    {% endif %}
+    {% if include.controls %}
+      controls
+    {% endif %}
+    {% if include.loop %}
+      loop
+    {% endif %}
+    {% if include.muted %}
+      muted
+    {% endif %}
+  />
+
+  {% if include.caption %}
+    <figcaption class="caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62b84fcc7076ed619bc0c1c1e2ccaf5c06af88b7668ea21b0a5a2b0f4ed3f8f0
-size 179
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in entry.contents %}
+    <li class="list-group-item">{{ content }}</li>
+  {% endfor %}
+</ul>
