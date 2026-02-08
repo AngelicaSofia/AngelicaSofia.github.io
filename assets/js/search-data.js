@@ -51,9 +51,20 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-lady-macbeth-of-the-mtsensk-district-teatro-la-scala",
+            },{id: "post-winter-olympics-beyond-the-ice-milano-cortina-2026",
         
-          title: "Lady Macbeth of the Mtsensk District — Teatro La Scala",
+          title: "Winter Olympics Beyond the Ice - Milano Cortina 2026",
+        
+        description: "Ice hockey, Red Cross volunteering, and what it means to serve during the Winter Olympics.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/RedCrossHolympic/";
+          
+        },
+      },{id: "post-lady-macbeth-of-the-mtsensk-district-teatro-la-scala",
+        
+          title: "Lady Macbeth of the Mtsensk District - Teatro La Scala",
         
         description: "Inside La Scala: Lady Macbeth of the Mtsensk District, backstage insights and the power of Shostakovich’s opera",
         section: "Posts",
