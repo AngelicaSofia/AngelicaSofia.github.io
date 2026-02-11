@@ -28,7 +28,7 @@ Italy has a long and meaningful relationship with the Winter Olympic Games. The 
     </div>
 </div>
 <div class="caption">
-    Italy's role in hosting Winter Olympic Games. 1956, with Cortina d'Ampezzo. 2006, with Turin (with official mascottes Neve and Gliz).
+    Italy's role in hosting Winter Olympic Games. 1956, with Cortina d'Ampezzo. 2006, with Turin (and official mascottes Neve and Gliz).
 </div>
 
 Winter Olympics have a distinct character compared to their summer counterpart. They are logistically complex, exposed to environmental conditions, and inherently risk-prone. Cold, ice, altitude, speed, and physical impact make safety not just a requirement but a central pillar of the event. Milano–Cortina 2026 will unfold across multiple locations in Northern Italy, requiring precise coordination, mobility, and readiness at all times. Behind every competition lies a system designed to manage uncertainty, respond to emergencies, and protect both athletes and spectators.
