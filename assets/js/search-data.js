@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-winter-olympics-beyond-the-ice-milano-cortina-2026",
+            },{id: "post-mass-start-speed-skating-winter-olympics-milano-cortina-2026",
+        
+          title: "Mass Start Speed Skating - Winter Olympics Milano Cortina 2026",
+        
+        description: "Speed Skating, precision, silence and the magic of races decided by millimeters on the reflexions of ice.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/SpeedSkatingHolympic/";
+          
+        },
+      },{id: "post-winter-olympics-beyond-the-ice-milano-cortina-2026",
         
           title: "Winter Olympics Beyond the Ice - Milano Cortina 2026",
         
