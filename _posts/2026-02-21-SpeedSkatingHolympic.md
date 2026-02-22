@@ -47,22 +47,22 @@ At the [Milano–Cortina 2026 Games](https://en.wikipedia.org/wiki/2026_Winter_O
 | Mass Start   | Men | Women |
 | Team Pursuit | Men | Women |
 
-While the Netherlands dominated the podium, Italy delivered impressive performances and notable results, being the second country in the medal table at the [Milano–Cortina 2026 Games](https://en.wikipedia.org/wiki/2026_Winter_Olympics).
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sport/speedskating-1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/sport/speedskating-1.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sport/speedskating-2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/sport/speedskating-2.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sport/speedskating-3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/sport/speedskating-3.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
     </div>
 </div>
 <div class="caption">
     Men Mass Start Final, Ice Skate Arena at Milano Rho Fiera, Milan, Italy. Incredible Dutch Jorrit Bergsma escaping from the rest of the group.
 </div>
+
+While the Netherlands dominated the podium, Italy delivered impressive performances and notable results, being the second country in the medal table at the [Milano–Cortina 2026 Games](https://en.wikipedia.org/wiki/2026_Winter_Olympics).
 
 | Rank | Nation         | Gold | Silver | Bronze |
 | ---- | -------------- | ---- | ------ | ------ |
@@ -77,8 +77,6 @@ While the Netherlands dominated the podium, Italy delivered impressive performan
 | 8    | Denmark        | 0    | 1      | 0      |
 | 10   | Japan          | 0    | 0      | 3      |
 
-Italy’s relationship with Olympic speed skating has grown richer over time. At the [Torino 2006 Winter Games](https://en.wikipedia.org/wiki/2006_Winter_Olympics), [Enrico Fabris](https://en.wikipedia.org/wiki/Enrico_Fabris) became a national hero with two golds (1500m and team pursuit) and a bronze (5000m), a breakthrough moment for Italy in this discipline. Italian success continued with medals from [Nicola Tumolero](https://en.wikipedia.org/wiki/Nicola_Tumolero), [Davide Ghiotto](https://en.wikipedia.org/wiki/Davide_Ghiotto), and [Francesca Lollobrigida](https://en.wikipedia.org/wiki/Francesca_Lollobrigida) across recent Games.
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/pdf/olympics/SpeedSkating-2.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -87,6 +85,8 @@ Italy’s relationship with Olympic speed skating has grown richer over time. At
 <div class="caption">
     Olympic medalist and world champion, she won her Olympic silver medal on her 35th birthday—an emblem of longevity, discipline, and excellence in Italian speed skating.
 </div>
+
+Italy’s relationship with Olympic speed skating has grown richer over time. At the [Torino 2006 Winter Games](https://en.wikipedia.org/wiki/2006_Winter_Olympics), [Enrico Fabris](https://en.wikipedia.org/wiki/Enrico_Fabris) became a national hero with two golds (1500m and team pursuit) and a bronze (5000m), a breakthrough moment for Italy in this discipline. Italian success continued with medals from [Nicola Tumolero](https://en.wikipedia.org/wiki/Nicola_Tumolero), [Davide Ghiotto](https://en.wikipedia.org/wiki/Davide_Ghiotto), and [Francesca Lollobrigida](https://en.wikipedia.org/wiki/Francesca_Lollobrigida) across recent Games.
 
 At Milano–Cortina 2026, Francesca Lollobrigida shone again, delivering gold in the women’s 3000m on her 35th birthday and later claiming the 5000m, remarkable achievements that thrilled the home crowd.
 
@@ -127,7 +127,7 @@ Highlights:
 - **Alpine skiing**: [Federica Brignone](https://en.wikipedia.org/wiki/Federica_Brignone) captured two golds (super-G and giant slalom), while [Sofia Goggia](https://en.wikipedia.org/wiki/Sofia_Goggia) and [Dominik Paris](https://en.wikipedia.org/wiki/Dominik_Paris) won bronze in downhill.
 - **Biathlon**: [Lisa Vittozzi](https://en.wikipedia.org/wiki/Lisa_Vittozzi) took gold in the women’s pursuit.
 - **Snowboard & Freestyle**: [Michela Moioli](https://en.wikipedia.org/wiki/Michela_Moioli), [Simone Deromedis](https://en.wikipedia.org/wiki/Simone_Deromedis), and [Flora Tabanelli](https://en.wikipedia.org/wiki/Flora_Tabanelli) added medals in snowboard cross, ski cross, and big air.
-- **Other ice sports**: Italy won bronze in mixed doubles curling ([Stefania Constantini](https://en.wikipedia.org/wiki/Stefania_Constantini) & [Amos Mosaner](https://en.wikipedia.org/wiki/Amos_Mosaner)) and team figure skating ([Daniel Grassl](https://en.wikipedia.org/wiki/Daniel_Grassl), [Matteo Rizzo](https://en.wikipedia.org/wiki/Matteo_Rizzo), [Lara Naki Gutmann](https://en.wikipedia.org/wiki/Lara_Naki_Gutmann), [Sara Conti](https://en.wikipedia.org/wiki/Sara_Conti)/[Niccolò Macii](https://en.wikipedia.org/wiki/Niccol%C3%B2_Macii), [Charlène Guignard](https://en.wikipedia.org/wiki/Charl%C3%A8ne_Guignard)/[Marco Fabbri](<https://en.wikipedia.org/wiki/Marco_Fabbri_(figure_skater)>)).
+- **Other ice sports**: Italy won bronze in mixed doubles curling ([Stefania Constantini](https://en.wikipedia.org/wiki/Stefania_Constantini) & [Amos Mosaner](https://en.wikipedia.org/wiki/Amos_Mosaner)) and team figure skating ([Daniel Grassl](https://en.wikipedia.org/wiki/Daniel_Grassl), [Matteo Rizzo](https://en.wikipedia.org/wiki/Matteo_Rizzo), [Lara Naki Gutmann](https://en.wikipedia.org/wiki/Lara_Naki_Gutmann), [Sara Conti](https://en.wikipedia.org/wiki/Sara_Conti)/[Niccolò Macii](https://en.wikipedia.org/wiki/Niccol%C3%B2_Macii), [Charlène Guignard](https://en.wikipedia.org/wiki/Charl%C3%A8ne_Guignard)/Marco Fabbri).
 - **Luge & Cross-country**: Gold in men’s and women’s doubles luge ([Emanuel Rieder](https://en.wikipedia.org/wiki/Emanuel_Rieder), [Simon Kainzwaldner](https://en.wikipedia.org/wiki/Simon_Kainzwaldner), [Andrea Vötter](https://en.wikipedia.org/wiki/Andrea_V%C3%B6tter), [Marion Oberhofer](https://en.wikipedia.org/wiki/Marion_Oberhofer)); cross-country medals by [Federico Pellegrino](https://en.wikipedia.org/wiki/Federico_Pellegrino) and [Elia Barp](https://en.wikipedia.org/wiki/Elia_Barp).
 
 Italy’s performance at Milan–Cortina 2026 marked a historic achievement, showcasing both seasoned champions and emerging talents across a wide range of winter sports, and setting new records for gold and total medals.
@@ -146,6 +146,12 @@ Italy’s performance at Milan–Cortina 2026 marked a historic achievement, sho
 | Figure skating            | 0    | 0      | 1      | 1     |
 | **Total**                 | 10   | 6      | 14     | 30    |
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/pdf/olympics/SpeedSkating-5.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div> ￼
+
 ## From Milano–Cortina 2026 to France 2030
 
 The Milano–Cortina 2026 Winter Olympics were notable for their geographic spread — the most dispersed Winter Games in history — and their effort to reuse and adapt existing venues across northern Italy. Speed skating took place in its own dedicated venue, the Milano Speed Skating Stadium inside the [Fiera Milano Exhibition Center](https://en.wikipedia.org/wiki/Fiera_Milano), chosen after IOC review in part because it combined legacy value and logistical suitability.
@@ -163,10 +169,7 @@ Looking ahead to [Paris–Savoie 2030](https://en.wikipedia.org/wiki/2030_Winter
 
 #### Related Articles & Posts:
 
-- [Mass Start Explained](https://www.olympics.com/en/news/speed-skating-mass-start-explained)
 - [Race Result: Men’s Mass Start at Milano–Cortina 2026](https://www.reuters.com/sports/speed-skating-dutchman-bergsma-wins-mens-mass-start-milano-cortina-2026-02-21/)
-- [Andrea Giovannini Bronze in Mass Start](https://www.italpress.com/pattinaggio-di-velocita-mass-start-risultati-giovannini-lollobrigida-medaglie-italia/)
-- [Italy Wins Gold in Mixed Short‑Track Relay](https://www.ansa.it/english/news/sports/2026/02/10/milano-cortina-italy-win-gold-in-mixed-short-track-relay-3_09b2db23-2444-461c-97f5-106cbf9c5f13.html)
 - [Francesca Lollobrigida 3000 m & 5000 m Gold Highlights (YouTube)](https://www.youtube.com/watch?v=2ivajc20kiI)
 - [Italy’s Speed Skating and Medal Success](https://www.reuters.com/sports/review-olympics-speed-skating-lollobrigidas-heroics-stolzs-brilliance-dutch-2026-02-22/)
 - [Milan–Cortina 2026 Closing Ceremony](https://apnews.com/article/144560b4be540d20b5c92f48280ba2d5)
