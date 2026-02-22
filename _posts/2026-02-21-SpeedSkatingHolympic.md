@@ -57,7 +57,7 @@ While the Netherlands dominated the podium, Italy delivered impressive performan
         {% include figure.liquid path="assets/img/sport/speedskating-2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sport/speedskating-3.jpg class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/sport/speedskating-3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
