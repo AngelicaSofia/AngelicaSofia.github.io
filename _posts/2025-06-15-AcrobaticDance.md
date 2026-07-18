@@ -3,7 +3,7 @@ layout: post
 title: Once Upon a Time - Skills Zamaga 2025
 date: 2025-06-15 18:30:00
 description: A journey into acrobatic dance through my experience performing Aerial Hoop and Silk at Skills Zamaga for end-of-year performance (Once Upon a Time)
-tags: Acrobatic Dance Sport AerialSilk AerialHoop Art Event
+tags: Aerial Dance Sport Art Event
 categories: Sport
 thumbnail: assets/img/sport/acrobatic2025-1.jpg
 images:

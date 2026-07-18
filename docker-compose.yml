@@ -19,3 +19,7 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    # the image's default entrypoint deletes Gemfile.lock (it's gitignored) before
+    # running `bundle exec jekyll serve` without ever running `bundle install` first,
+    # which breaks the git-sourced jekyll-terser gem. Run bundle install ourselves first.
+    command: bash -c "bundle install && bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --force_polling"
