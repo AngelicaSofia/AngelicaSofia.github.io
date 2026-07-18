@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-mass-start-speed-skating-winter-olympics-milano-cortina-2026",
+            },{id: "post-women-skills-zamaga-2026",
+        
+          title: "Women - Skills Zamaga 2026",
+        
+        description: "Aerial arts, friendship, and new beginnings. Reflecting on Skills Zamaga’s Women as I prepared to leave Milan and start a new chapter in Paris.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/AcrobaticDance/";
+          
+        },
+      },{id: "post-mass-start-speed-skating-winter-olympics-milano-cortina-2026",
         
           title: "Mass Start Speed Skating - Winter Olympics Milano Cortina 2026",
         
