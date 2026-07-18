@@ -9,7 +9,7 @@ profile:
   image: AngiSofiVale.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-family: Arial; font-size: 16px;">Senior Project Manager PMP®</p>
+    <p style="font-family: Arial; font-size: 16px;">PreSales PAY EMEA</p>
     <p style="font-family: Arial; font-size: 16px;">Thales Group</p> 
     <p style="font-family: Arial; font-size: 14px;">Cybersecurity & Digital Identity</p>
 
@@ -37,7 +37,9 @@ latest_posts:
 
 I’m a determined and impact-oriented professional with a background in engineering, data science, and digital transformation. With experience across leading institutions like [Thales](https://www.google.com/search?client=safari&rls=en&q=thales&ie=UTF-8&oe=UTF-8), [Intesa Sanpaolo](https://en.wikipedia.org/wiki/Intesa_Sanpaolo), [CERN](https://home.cern), and [Enel](https://en.wikipedia.org/wiki/Enel), I’ve managed complex projects in financial services, software migration, and AI innovation — always aiming to bridge technology with real-world value.
 
-Currently, I serve as a Senior Project Manager at Thales, where I lead complex digital and operational transformation projects, contributing to high-visibility programs such as the _Spark Program_ and the **Talent Accelerator Program (TAP 2025)**. I'm also PMP® certified and have completed advanced project management courses through the [Polimi Graduate School of Management](https://www.gsom.polimi.it), sharpening my approach to stakeholder engagement, risk management, and strategic planning.
+Currently, I work as Pre-Sales across EMEA region at Thales, supporting customers in designing and identifying trusted digital solutions. My role combines technical expertise, strategic thinking, and stakeholder engagement, allowing me to connect complex technologies with business needs and tangible outcomes.
+
+In my past experience, I led complex digital and operational transformation projects, contributing to high-visibility programs such as the _Spark Program_ and the **Talent Accelerator Program (TAP 2025)**. I'm also PMP® certified (2025) and have completed advanced project management courses through the [Polimi Graduate School of Management](https://www.gsom.polimi.it), sharpening my approach to stakeholder engagement, risk management, and strategic planning.
 
 Beyond the corporate sphere, I bring a strong human-centered mindset to my work. I have a solid background in foreign languages and international collaboration, and I’ve dedicated several years to volunteering with the [Italian Red Cross](https://cri.it), where I also served as CeFRA staff coordinator for EMT and BLSD training. I believe that leadership is not just about delivering results but about service, empathy, and empowering others.
 
