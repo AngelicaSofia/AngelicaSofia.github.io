@@ -113,7 +113,7 @@ Inspired by _Rossetto e Cioccolato_, the performance embraced the irony, eleganc
     </div>
 </div>
 
-## The show must go on
+## The show must go on ✨
 
 As the final applause filled the theatre, I realized that what I will remember most is not a specific trick, pose, or choreography.
 
