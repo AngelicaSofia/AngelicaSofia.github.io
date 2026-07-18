@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/courses/";
               },
-            },{id: "post-women-skills-zamaga-2026",
+            },{id: "post-the-art-of-crossing-over",
+        
+          title: "The Art of Crossing Over",
+        
+        description: "From The Floating Piers to La Caverne du Pont Neuf",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/CavernePontNeuf/";
+          
+        },
+      },{id: "post-women-skills-zamaga-2026",
         
           title: "Women - Skills Zamaga 2026",
         
